@@ -110,11 +110,27 @@ class Basics {
 			}
 		int results[] = {findMax(x), min, getAverage(x)};
 		
-		for (int z = 0; z < results.length; i++) {
-			System.out.println(results[i]);
+		for (int z = 0; z < results.length; z++) {
+			System.out.println(results[z]);
 		}
 
 		}
+	}
+
+	// shift right
+	public static void shiftRight() {
+		int shiftArray[] = {1,5,10,7,-2};
+		System.out.println("Shift array: ");
+		int lastInt = shiftArray[shiftArray.length-1];
+		for (int i = shiftArray.length - 1; i > 0; i--) {
+			shiftArray[i] = shiftArray[i - 1];
+		}
+		shiftArray[0] = lastInt;
+		
+		for (int i = 0; i < shiftArray.length; i++) {
+			System.out.println(shiftArray[i]);
+		}
+		
 	}
 
 	public static void main(String[] args) {
@@ -129,5 +145,6 @@ class Basics {
 		eliminateNegativeNumbers();
 		squareTheValues();
 		minMaxAverage();
+		shiftRight();
 	}
 }
