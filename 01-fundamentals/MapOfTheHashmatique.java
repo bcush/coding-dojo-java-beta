@@ -7,6 +7,7 @@ class MapOfTheHashmatique {
 		trackList.put("Beast Mode", "Coding is fun; oh, oh; lots of fun");
 		trackList.put("Vim", "My favorite editor; lyrics escape me");
 		System.out.println(trackList.get("Beast Mode"));
-		System.out.println(trackList);
+		System.out.println(trackList.clone());
 	}
+
 }
