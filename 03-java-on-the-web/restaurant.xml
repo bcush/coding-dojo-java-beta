@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <breakfast>
+        <item category="drink">
+	    <name>coffee</name>
+	    <description>A nice warm beverage.</description>
+            <price>$1.50</price>
+	</item>
+    </breakfast>
+    <lunch>
+        <item category="drink">
+	    <name>milk</name>
+	    <description>A cold, frothy, glass of cow juice.</description>
+	    <price>$3.00</price>
+	</item>
+    </lunch>
+    <dinner>
+        <item category="drink">
+	    <name>scotch</name>
+	    <description>When you want to go to sleep.</description>
+	    <price>$10.00</price>
+	</item>
+    </dinner>
+</menu>
