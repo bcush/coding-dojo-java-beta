@@ -14,8 +14,6 @@
 	
 	DogModel dog = new DogModel(name, breed, weight);
 %>
-
 	<h1>Your <%= dog.getBreed() %> dog <%= dog.getName() %>, <%= dog.showAffection() %>, you think.</h1>
-
 </body>
 </html>

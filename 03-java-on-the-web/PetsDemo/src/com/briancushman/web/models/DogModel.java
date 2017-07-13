@@ -12,10 +12,10 @@ public class DogModel extends Animal implements Pet {
 		String s;
 		
 		if (getWeight() < 30) {
-			s = "Hopped into your lap and cuddled you.";
+			s = "hopped into your lap and cuddled you.";
 		} else
 		{
-			s = "Curled up next to you.";
+			s = "curled up next to you.";
 		}
 		
 		return s;

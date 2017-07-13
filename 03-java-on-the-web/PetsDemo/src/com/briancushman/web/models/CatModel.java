@@ -9,7 +9,7 @@ public class CatModel extends Animal implements Pet {
 
 	@Override
 	public String showAffection() {
-		return "Looked at you with some affection.";
+		return "looked at you with some affection.";
 	}
 
 }
